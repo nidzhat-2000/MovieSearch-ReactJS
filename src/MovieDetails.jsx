@@ -10,7 +10,6 @@ function MovieDetails() {
   const { id } = useParams();
 
   const { loading, data: movie, error } = useFetch(`i=${id}`);
-  console.log();
   console.log(loading);
   console.log(error);
   console.log(movie);
